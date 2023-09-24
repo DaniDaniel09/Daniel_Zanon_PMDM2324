@@ -76,4 +76,26 @@ class MainActivity : AppCompatActivity() {
         super.onStart()
         Log.d("DEPURACION", "Al metodo onStart")
     }
+
+    override fun onResume() {
+        super.onResume()
+        Log.d("DEPURACION", "Al metodo onResume")
+    }
+
+    override fun onPause() {
+        super.onPause()
+        Log.d("DEPURACION","Al metodo onPause")
+    }
+    override fun onStop() {
+        super.onStop()
+        Log.d("DEPURACION", "Al metodo onStop")
+    }
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("DEPURACION", "Al metodo onRestart")
+    }
+    override fun onDestroy() {
+        super.onDestroy()
+        Log.d("DEPURACION", "Al metodo onDestroy")
+    }
 }
